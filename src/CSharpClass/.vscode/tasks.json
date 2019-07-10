@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_ClassNumber01_Types",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ClassNumber01_Types/ClassNumber01_Types.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ClassNumber02_Casting",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ClassNumber02_Casting/ClassNumber02_Casting.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ClassNumber03_String",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ClassNumber03_String/ClassNumber03_String.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ClassNumber04_Statement",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ClassNumber04_Statement/ClassNumber04_Statement.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ExerciseNumber01_String",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ExerciseNumber01_String/ExerciseNumber01_String.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        }
+    ]
+}

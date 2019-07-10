@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug_ClassNumber01_Types",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber01_Types",
+            "program": "${workspaceFolder}/ClassNumber01_Types/bin/Debug/netcoreapp2.2/ClassNumber01_Types.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber01_Types",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug_ClassNumber02_Casting",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber02_Casting",
+            "program": "${workspaceFolder}/ClassNumber02_Casting/bin/Debug/netcoreapp2.2/ClassNumber02_Casting.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber02_Casting",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug_ClassNumber03_String",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber03_String",
+            "program": "${workspaceFolder}/ClassNumber03_String/bin/Debug/netcoreapp2.2/ClassNumber03_String.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber03_String",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug_ClassNumber04_Statement",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber04_Statement",
+            "program": "${workspaceFolder}/ClassNumber04_Statement/bin/Debug/netcoreapp2.2/ClassNumber04_Statement.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber04_Statement",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Debug_ExerciseNumber01_String",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ExerciseNumber01_String",
+            "program": "${workspaceFolder}/ExerciseNumber01_String/bin/Debug/netcoreapp2.2/ExerciseNumber01_String.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ExerciseNumber01_String",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

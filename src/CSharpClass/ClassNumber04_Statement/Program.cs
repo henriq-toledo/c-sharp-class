@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassNumber04_Statement.Classes;
 
 namespace ClassNumber04_Statement
 {
@@ -6,7 +7,8 @@ namespace ClassNumber04_Statement
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IfElseExamples.ExecuteAll();         
+
             Console.Read();
         }
     }

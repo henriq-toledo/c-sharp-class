@@ -58,6 +58,17 @@
             "cwd": "${workspaceFolder}/ExerciseNumber01_String",
             "console": "externalTerminal",
             "stopAtEntry": false
+        },
+        {
+            "name": "Debug_ExerciseNumber02_Statement",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ExerciseNumber02_Statement",
+            "program": "${workspaceFolder}/ExerciseNumber02_Statement/bin/Debug/netcoreapp2.2/ExerciseNumber02_Statement.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ExerciseNumber02_Statement",
+            "console": "externalTerminal",
+            "stopAtEntry": false
         }
     ]
 }

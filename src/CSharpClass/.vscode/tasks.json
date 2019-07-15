@@ -50,6 +50,16 @@
                 "${workspaceFolder}/ExerciseNumber01_String/ExerciseNumber01_String.csproj"
             ],
             "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build_ExerciseNumber02_Statement",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ExerciseNumber02_Statement/ExerciseNumber02_Statement.csproj"
+            ],
+            "problemMatcher": "$tsc"
         }
     ]
 }

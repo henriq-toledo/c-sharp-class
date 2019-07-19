@@ -10,9 +10,7 @@ namespace ClassNumber04_Statement.Classes
         {
             NegativeInIf();
             TernaryOperator();
-            CheckingAllConditions();         
-
-            Console.Read();
+            CheckingAllConditions();
         }
 
         static bool Check(int value)

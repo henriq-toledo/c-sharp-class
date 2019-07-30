@@ -37,12 +37,18 @@ namespace ClassNumber04_Statement
                         ForExamples.ExecuteAll();
                         break;
 
-                    case "3":
+                    case "3":                        
+                        Console.Clear();
                         Console.WriteLine("3 - While");
+                        Console.WriteLine();
+                        WhileExamples.ExecuteAll();
                         break;
 
-                    case "4":
+                    case "4":                        
+                        Console.Clear();
                         Console.WriteLine("4 - Do while");
+                        Console.WriteLine();
+                        DoWhileExamples.ExecuteAll();
                         break;
 
                     case "5":

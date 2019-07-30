@@ -35,6 +35,8 @@ Steps to create the solution
 	- Installing Nuget Package Manager
 		- https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager
 	
+TOPICS:
+
 - Compiled and interpreted languages and Dynamic Link Libraries
 - Console application
 	- Program class, Main method and args

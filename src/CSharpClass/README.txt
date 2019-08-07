@@ -60,6 +60,7 @@ TOPICS:
 	- Converters
 		- Parse methods
 		- Converter class
+	- Arrays
 - String
 	- string format
 	- StringBuilder
@@ -68,20 +69,20 @@ TOPICS:
 	- var
 	- const
 	- readonly
-- Managing Program Flow
+- Managing Program Flow 
 	- If, else if and else
 	- Ternary operator
 	- Switch 
 	- Loops
 		- for
-		- while (next)
+		- while
 		- do while
 		- foreach
 		- keywords
 			- break
 			- continue
 			- goto
-- Object Oriented Programming
+- Object Oriented Programming (next)
 	- Inheritance
 	- Constructor
 	- Destructor
@@ -94,8 +95,8 @@ TOPICS:
 		- private
 		- internal
 		- static
+		- partial
 - Ref and out parameters
-- Exceptions
 - Interfaces
 	- IComparable and IComparer
 	- IEquatable
@@ -106,7 +107,6 @@ TOPICS:
 		- using keyword
 		- Garbage Collector
 - Enums
-- Arrays
 - Collections
 	- List
 	- Dictionary
@@ -150,12 +150,15 @@ TOPICS:
 	- File
 	- DirectoryInfo
 	- FileInfo
+- Exceptions
 - Serialization and Deserialization
 	- XML
 	- JSON
 - Extension methods
 - Delegates and events
-- Actions and functions
+	- Windows Forms default events
+	- Actions 
+	- Functions
 - Multithreading
 	- Task
 	- Async methods

@@ -49,24 +49,13 @@
             "stopAtEntry": false
         },
         {
-            "name": "Debug_ExerciseNumber01_String",
+            "name": "Debug_ClassNumber05_OOP",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build_ExerciseNumber01_String",
-            "program": "${workspaceFolder}/ExerciseNumber01_String/bin/Debug/netcoreapp2.2/ExerciseNumber01_String.dll",
+            "preLaunchTask": "build_ClassNumber05_OOP",
+            "program": "${workspaceFolder}/ClassNumber05_OOP/bin/Debug/netcoreapp2.2/ClassNumber05_OOP.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ExerciseNumber01_String",
-            "console": "externalTerminal",
-            "stopAtEntry": false
-        },
-        {
-            "name": "Debug_ExerciseNumber02_Statement",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build_ExerciseNumber02_Statement",
-            "program": "${workspaceFolder}/ExerciseNumber02_Statement/bin/Debug/netcoreapp2.2/ExerciseNumber02_Statement.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/ExerciseNumber02_Statement",
+            "cwd": "${workspaceFolder}/ClassNumber05_OOP",
             "console": "externalTerminal",
             "stopAtEntry": false
         }

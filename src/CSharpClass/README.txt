@@ -83,12 +83,12 @@ TOPICS:
 			- continue
 			- goto
 - Object Oriented Programming (next)
-	- Inheritance
 	- Constructor
+	- Properties
 	- Destructor
+	- Inheritance
 	- Overload
 	- Override and virtual
-	- Properties
 	- Modifiers
 		- public
 		- protected

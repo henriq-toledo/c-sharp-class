@@ -1,13 +1,13 @@
 Topics:
 
-- Object Oriented Programming
-	- Inheritance
+- Object Oriented Programming	
 	- Constructor
 	- Destructor
-	- Overload
-	- Override and virtual
 	- Properties
-	- Modifiers		
+	- Inheritance
+	- Overload
+	- Override and virtual	
+	- Modifiers
 		- public
 		- protected
 		- private

@@ -17,6 +17,7 @@ namespace ClassNumber04_Statement
                 Console.WriteLine("3 - While");
                 Console.WriteLine("4 - Do while");
                 Console.WriteLine("5 - Foreach");
+                Console.WriteLine("6 - Goto");
                 Console.WriteLine("9 - Exit");
 
                 var input = Console.ReadLine();
@@ -52,7 +53,17 @@ namespace ClassNumber04_Statement
                         break;
 
                     case "5":
+                        Console.Clear();
                         Console.WriteLine("5 - Foreach");
+                        Console.WriteLine();
+                        ForeachExamples.ExecuteAll();
+                        break;
+
+                    case "6":
+                        Console.Clear();
+                        Console.WriteLine("6 - Goto");
+                        Console.WriteLine();
+                        GotoExamples.ExecuteAll();
                         break;
 
                     case "9":

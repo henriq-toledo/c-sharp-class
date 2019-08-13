@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassNumber05_OOP.Classes;
 
 namespace ClassNumber05_OOP
 {
@@ -6,9 +7,10 @@ namespace ClassNumber05_OOP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Person(firstName: "João", lastName: "Silva", age: 10);
+            person.Show();
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }

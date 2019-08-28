@@ -7,8 +7,11 @@ namespace ClassNumber05_OOP
     {
         static void Main(string[] args)
         {
-            var person = new Person(firstName: "João", lastName: "Silva", age: 10);
-            person.Show();
+            var person = new Employee(firstName: "João", lastName: "Silva", age: 10);            
+            Console.WriteLine(person.ToString());
+
+            Person joao = new Employee(firstName: "João", lastName: "Silva", age: 10);          
+            Console.WriteLine(joao.ToString());
 
             Console.ReadKey();
         }

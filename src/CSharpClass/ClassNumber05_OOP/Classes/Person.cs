@@ -1,6 +1,6 @@
 namespace ClassNumber05_OOP.Classes
 {
-    public class Person
+    public abstract class Person
     {
         #region Properties
 
@@ -27,10 +27,7 @@ namespace ClassNumber05_OOP.Classes
             Age = age;
         }     
 
-        public void Show()
-        {
-            System.Console.WriteLine(this.ToString());
-        }
+        public abstract void Show();
 
         public override string ToString()
         {

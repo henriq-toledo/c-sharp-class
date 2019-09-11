@@ -1,6 +1,6 @@
 namespace ClassNumber05_OOP.Classes
 {
-    public class Employee : Person
+    public abstract class Employee : Person
     {
         public string CompanyId { get; private set; }
         public string RegistrationId { get; private set; }
@@ -24,5 +24,7 @@ namespace ClassNumber05_OOP.Classes
         {
             return base.ToString() + $", Company Id: {CompanyId}, Registration Id: {RegistrationId}, Is Temporary: {IsTemporary}";
         }
+
+        public override abstract void Show();
     }
 }

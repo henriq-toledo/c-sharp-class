@@ -82,14 +82,15 @@ TOPICS:
 			- break
 			- continue
 			- goto
-- Object Oriented Programming (next)
+- Object Oriented Programming
 	- Constructor
 	- Properties
 	- Destructor
-	- Inheritance
+	- Inheritance (next)
 	- Overload
 	- Override and virtual
 	- Modifiers
+		- abstract
 		- public
 		- protected
 		- private
@@ -151,6 +152,9 @@ TOPICS:
 	- DirectoryInfo
 	- FileInfo
 - Exceptions
+	- try
+	- catch
+	- finally
 - Serialization and Deserialization
 	- XML
 	- JSON

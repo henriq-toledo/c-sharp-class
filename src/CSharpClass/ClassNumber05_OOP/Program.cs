@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ClassNumber05_OOP.Classes;
 
 namespace ClassNumber05_OOP
@@ -12,8 +13,8 @@ namespace ClassNumber05_OOP
             // Console.WriteLine($"Maria is a person: {(maria is Person)}");
             // Console.WriteLine($"Maria is an employee: {(maria is Employee)}");
 
-            // //Employee mariaEmployee = (Employee) maria; // throw exception
-            // Employee mariaEmployee = maria as Employee; // null
+            //Employee mariaEmployee = (Employee) maria; // throw exception
+            //Employee mariaEmployee = maria as Employee; // null
 
             Person joao = new Developer(firstName: "João", lastName: "Silva", age: 20, companyId: "Star Company", registrationId: "M2030");          
             joao.Show();
@@ -37,6 +38,26 @@ namespace ClassNumber05_OOP
 
             temporaryEmployee.Show();
             
+            temporaryEmployee.Languages.Add("C#");
+            temporaryEmployee.Languages.Add("Javascript");
+            temporaryEmployee.Languages.Add("Lua");
+            temporaryEmployee.Languages.Add("Python");
+
+            var has = temporaryEmployee.HasLanguage("C#");
+
+            var languagesShouldHave = new List<string>();
+            languagesShouldHave.Add("C#");
+            languagesShouldHave.Add("Javascript");
+
+            var hasAll = temporaryEmployee.HasLanguage(languagesShouldHave);
+            
+            Console.WriteLine(temporaryEmployee.Credentials);
+            Console.WriteLine(temporaryEmployee.HasDefaultLanguages);
+
+            Developer.DefaultLanguages.Add("Ada");
+
+            Console.WriteLine(temporaryEmployee.HasDefaultLanguages);
+
             Console.ReadKey();
         }
     }

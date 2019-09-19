@@ -5,6 +5,7 @@ namespace ClassNumber05_OOP.Classes
         public string CompanyId { get; private set; }
         public string RegistrationId { get; private set; }
         public bool IsTemporary { get; private set; }
+        public virtual string Credentials => $"{this.CompanyId}-{this.RegistrationId}";
 
         public Employee(string firstName, string lastName, short age, string companyId, string registrationId)
             : base(firstName: firstName, lastName: lastName, age: age)
@@ -25,6 +26,6 @@ namespace ClassNumber05_OOP.Classes
             return base.ToString() + $", Company Id: {CompanyId}, Registration Id: {RegistrationId}, Is Temporary: {IsTemporary}";
         }
 
-        public override abstract void Show();
+        public override abstract void Show();        
     }
 }

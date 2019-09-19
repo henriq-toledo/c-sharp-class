@@ -86,14 +86,14 @@ TOPICS:
 	- Constructor
 	- Properties
 	- Destructor
-	- Inheritance (next)
+	- Inheritance
 	- Overload
-	- Override and virtual
+	- Override and virtual 
 	- Modifiers
-		- abstract
-		- public
+		- public (next)
 		- protected
 		- private
+		- abstract		
 		- internal
 		- static
 		- partial

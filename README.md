@@ -6,6 +6,7 @@
     - Install the C# extension: C# for Visual Studio Code (powered by OmniSharp)
     - Install the extension: vscode-nuget-package-manager (NuGet Package Manager powered by jmrog)
     - Install the extension: C# XML Documentation Comments (powered by Keisuke Kato)
+	- Install the extension: C# Extensions (powered by jchannon)
 
 - Shortcuts
     - Ctrl+Shift+D: Debug
@@ -27,6 +28,12 @@ Steps to create the solution
 - Return to the CSharpClass folder
 - Run the "dotnet sln .\CSharpClass.sln add .\ClassNumber01_Types\ClassNumber01_Types.csproj" command
     - This command attach the project to the solution
+- Adding a project reference
+	- https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-add-reference
+	- Examples: 
+		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass\ClassNumber06_OOP> dotnet add reference ..\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
+		- or
+		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass> dotnet add .\ClassNumber06_OOP\ClassNumber06_OOP.csproj  reference .\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
 
 - Visual Studio Code installing and configuring the C# extension
 	- Installing dot net core
@@ -90,9 +97,9 @@ TOPICS:
 	- Overload
 	- Override and virtual 
 	- Modifiers
-		- public (next)
-		- protected
+		- public
 		- private
+		- protected (next)		
 		- abstract		
 		- internal
 		- static

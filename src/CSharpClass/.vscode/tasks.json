@@ -52,6 +52,20 @@
             "problemMatcher": "$tsc"
         },
         {
+            "label": "build_ClassNumber06_OOP",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ClassNumber06_OOP/ClassNumber06_OOP.csproj"
+            ],
+            "problemMatcher": "$tsc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "label": "build_ExerciseNumber01_String",
             "command": "dotnet",
             "type": "process",

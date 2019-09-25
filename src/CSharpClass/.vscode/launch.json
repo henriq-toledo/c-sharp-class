@@ -59,7 +59,17 @@
             "console": "externalTerminal",
             "stopAtEntry": false
         },
-        ,
+        {
+            "name": "Debug_ClassNumber06_OOP",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber06_OOP",
+            "program": "${workspaceFolder}/ClassNumber06_OOP/bin/Debug/netcoreapp2.2/ClassNumber06_OOP.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber06_OOP",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
         {
             "name": "Debug_ExerciseNumber01_String",
             "type": "coreclr",

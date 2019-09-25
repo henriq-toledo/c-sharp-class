@@ -1,12 +1,15 @@
-- Visual Studio Code installing and configuring the C# extension
-	- Installing .NET Core SDK
-		- https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
-    - Downloading the Visual Studio Code
-        - https://code.visualstudio.com/Download
-    - Install the C# extension: C# for Visual Studio Code (powered by OmniSharp)
-    - Install the extension: vscode-nuget-package-manager (NuGet Package Manager powered by jmrog)
-    - Install the extension: C# XML Documentation Comments (powered by Keisuke Kato)
-	- Install the extension: C# Extensions (powered by jchannon)
+<h1>C# Class</h1>
+
+<h2>Visual Studio Code installing and configuring the C# extension</h2>
+
+- Installing .NET Core SDK
+	- https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
+- Downloading the Visual Studio Code
+    - https://code.visualstudio.com/Download
+- Install the C# extension: C# for Visual Studio Code (powered by OmniSharp)
+- Install the extension: vscode-nuget-package-manager (NuGet Package Manager powered by jmrog)
+- Install the extension: C# XML Documentation Comments (powered by Keisuke Kato)
+- Install the extension: C# Extensions (powered by jchannon)
 
 - Shortcuts
     - Ctrl+Shift+D: Debug
@@ -16,7 +19,8 @@
     - Keyboard shortcuts for windows
         - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
-Steps to create the solution
+<h2>Steps to create the solution</h2>
+
 - Create the folder CSharpClass
 - Open the folder local
 - Run the "dotnet new sln" command
@@ -32,17 +36,12 @@ Steps to create the solution
 	- https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-add-reference
 	- Examples: 
 		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass\ClassNumber06_OOP> dotnet add reference ..\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
-		- or
-		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass> dotnet add .\ClassNumber06_OOP\ClassNumber06_OOP.csproj  reference .\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
 
-- Visual Studio Code installing and configuring the C# extension
-	- Installing dot net core
-		- https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
-	- dotnet new console
-	- Installing Nuget Package Manager
-		- https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager
+		or
+
+		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass> dotnet add .\ClassNumber06_OOP\ClassNumber06_OOP.csproj  reference .\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
 	
-TOPICS:
+<h2>TOPICS</h2>
 
 - Compiled and interpreted languages and Dynamic Link Libraries
 - Console application

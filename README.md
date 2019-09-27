@@ -1,6 +1,6 @@
-<h1>C# Class</h1>
+# C# Class
 
-<h2>Visual Studio Code installing and configuring the C# extension</h2>
+## Visual Studio Code installing and configuring the C# extension
 
 - Installing .NET Core SDK
 	- https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
@@ -19,7 +19,7 @@
     - Keyboard shortcuts for windows
         - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
-<h2>Steps to create the solution</h2>
+## Steps to create the solution
 
 - Create the folder CSharpClass
 - Open the folder local
@@ -41,7 +41,7 @@
 
 		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass> dotnet add .\ClassNumber06_OOP\ClassNumber06_OOP.csproj  reference .\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
 	
-<h2>TOPICS</h2>
+## Topics
 
 - Compiled and interpreted languages and Dynamic Link Libraries
 - Console application

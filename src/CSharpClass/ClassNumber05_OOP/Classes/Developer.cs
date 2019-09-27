@@ -11,7 +11,7 @@ namespace ClassNumber05_OOP.Classes
             "Javascript"
         };
 
-        public List<string> Languages { get; private set; }
+        internal List<string> Languages { get; private set; }
 
         public Developer(string firstName, string lastName, short age, string companyId)
             : base(firstName, lastName, age, companyId)
@@ -42,9 +42,14 @@ namespace ClassNumber05_OOP.Classes
             return has;
         }
 
-        public bool HasDefaultLanguages 
-            => Developer.DefaultLanguages.TrueForAll(language => Languages.Contains(language)); 
+        public bool HasDefaultLanguages
+            => Developer.DefaultLanguages.TrueForAll(language => Languages.Contains(language));
 
         public override string Credentials => $"Developer: {base.Credentials}";
+
+        public void AddLanguage(string language) => Languages.Add(language);
+        
+        public void RemoveLanguage(string language) => Languages.Remove(language);
+        public string[] GetLanguages() => Languages.ToArray();
     }
 }

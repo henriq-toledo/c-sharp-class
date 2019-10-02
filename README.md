@@ -10,6 +10,7 @@
 - Install the extension: vscode-nuget-package-manager (NuGet Package Manager powered by jmrog)
 - Install the extension: C# XML Documentation Comments (powered by Keisuke Kato)
 - Install the extension: C# Extensions (powered by jchannon)
+- Install the Git: https://git-scm.com/download/win
 
 - Shortcuts
     - Ctrl+Shift+D: Debug
@@ -98,11 +99,11 @@
 	- Modifiers
 		- public
 		- private
-		- protected (next)		
+		- protected 		
 		- abstract		
 		- internal
 		- static
-		- partial
+		- partial (next)
 - Ref and out parameters
 - Interfaces
 	- IComparable and IComparer

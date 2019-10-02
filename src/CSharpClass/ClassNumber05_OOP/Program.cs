@@ -58,6 +58,12 @@ namespace ClassNumber05_OOP
 
             Console.WriteLine(temporaryEmployee.HasDefaultLanguages);
 
+            temporaryEmployee.ChangeColor(ConsoleColor.Green);
+            employee.ChangeColor(ConsoleColor.DarkBlue);
+            
+            employee.Show();            
+            temporaryEmployee.Show();
+
             Console.ReadKey();
         }
     }

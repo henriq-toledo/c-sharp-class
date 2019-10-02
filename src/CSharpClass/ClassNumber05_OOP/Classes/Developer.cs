@@ -5,6 +5,8 @@ namespace ClassNumber05_OOP.Classes
 {
     public class Developer : Employee
     {
+        private UserSettings _userSettings;
+
         public static List<string> DefaultLanguages { get; set; } = new List<string>()
         {
             "C#",
@@ -17,16 +19,26 @@ namespace ClassNumber05_OOP.Classes
             : base(firstName, lastName, age, companyId)
         {
             Languages = new List<string>();
+            _userSettings = new UserSettings();
         }
 
         public Developer(string firstName, string lastName, short age, string companyId, string registrationId)
             : base(firstName, lastName, age, companyId, registrationId)
         {
             Languages = new List<string>();
+             _userSettings = new UserSettings();
+        }
+
+        public void ChangeColor(ConsoleColor color)
+        {
+            //Settings.ForegroundColor = color;
+            _userSettings.ForegroundColor = color;
         }
 
         public override void Show()
         {
+            Console.ForegroundColor = _userSettings.ForegroundColor;
+            //Console.ForegroundColor = Settings.ForegroundColor;
             Console.WriteLine($"Developer: {base.ToString()}");
         }
 

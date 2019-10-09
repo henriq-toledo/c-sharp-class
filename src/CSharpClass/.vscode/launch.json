@@ -71,6 +71,17 @@
             "stopAtEntry": false
         },
         {
+            "name": "Debug_ClassNumber07_Collections",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_ClassNumber07_Collections",
+            "program": "${workspaceFolder}/ClassNumber07_Collections/bin/Debug/netcoreapp2.2/ClassNumber07_Collections.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ClassNumber07_Collections",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": "Debug_ExerciseNumber01_String",
             "type": "coreclr",
             "request": "launch",

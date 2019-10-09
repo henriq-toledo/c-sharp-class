@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassNumber05_OOP", "ClassN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassNumber06_OOP", "ClassNumber06_OOP\ClassNumber06_OOP.csproj", "{7CA1A32C-39DC-4B61-86DD-7ABD7AA30751}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassNumber07_Collections", "ClassNumber07_Collections\ClassNumber07_Collections.csproj", "{0505EE32-2D21-45DF-BB08-8FDF33391EF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,5 +130,17 @@ Global
 		{7CA1A32C-39DC-4B61-86DD-7ABD7AA30751}.Release|x64.Build.0 = Release|Any CPU
 		{7CA1A32C-39DC-4B61-86DD-7ABD7AA30751}.Release|x86.ActiveCfg = Release|Any CPU
 		{7CA1A32C-39DC-4B61-86DD-7ABD7AA30751}.Release|x86.Build.0 = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|x64.Build.0 = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Debug|x86.Build.0 = Debug|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|x64.ActiveCfg = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|x64.Build.0 = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|x86.ActiveCfg = Release|Any CPU
+		{0505EE32-2D21-45DF-BB08-8FDF33391EF0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

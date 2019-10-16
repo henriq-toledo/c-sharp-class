@@ -16,18 +16,18 @@ abstract class Employee : Person \
 +String GetInformation()
 
 class DatabaseAdministrator : Employee \
--List<String> _databases \
+-List::String _databases \
 +void AddDatabase(String databaseName) \
 +void RemoveDatabase(String databaseName) \
 +String GetInformation() \
 #void DatabaseAdministrator(String firstName, string lastName, string companyName)
 
 class Support : Employee \
--List<String> _programs \
+-List::String _programs \
 +void AddProgram(String program) \
 +void RemoveProgram(String program) \
 +String GetInformation() \
 #void Support(String firstName, string lastName, string companyName)
 
-<u>class EmployeesList<u> \
-<u>#List<Employee> Employees</u>
+<ins>class EmployeesList<ins> \
+<ins>#List::Employee Employees</ins>

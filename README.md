@@ -103,8 +103,8 @@
 		- abstract		
 		- internal
 		- static
-		- partial (next)
-- Ref and out parameters
+		- partial
+- Ref and out parameters (next)
 - Interfaces
 	- IComparable and IComparer
 	- IEquatable
@@ -166,8 +166,7 @@
 	- XML
 	- JSON
 - Extension methods
-- Delegates and events
-	- Windows Forms default events
+- Delegates and events	
 	- Actions 
 	- Functions
 - Multithreading
@@ -180,9 +179,7 @@
 		- Code First
 		- Migration
 		- Attributes
-- App.Config
-	- Key and value
-	- ConfigurationManager class
+- AppSettings.json	
 - Tests
 	- Arrange Act Assert
 	- Unit Test

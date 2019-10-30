@@ -1,6 +1,13 @@
 # C# Class
 
-## Visual Studio Code installing and configuring the C# extension
+## Table of contents
+1. [Visual Studio Code installing and configuring the C# extension](#visualStudioCodeInstall)
+2. [Steps to create the solution](#steps)
+3. [C# Topics](#topics)
+4. [Git Commands](#gitCommands)
+5. [vi Text Editor Commands](#viCommands)
+
+## Visual Studio Code installing and configuring the C# extension <a name="visualStudioCodeInstall"/>
 
 - Installing .NET Core SDK
 	- https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
@@ -20,7 +27,7 @@
     - Keyboard shortcuts for windows
         - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
-## Steps to create the solution
+## Steps to create the solution <a name="steps"/>
 
 - Create the folder CSharpClass
 - Open the folder local
@@ -42,7 +49,7 @@
 
 		- <code>C:\Repositories\GitHub\c-sharp-class\src\CSharpClass> dotnet add .\ClassNumber06_OOP\ClassNumber06_OOP.csproj  reference .\ClassNumber05_OOP\ClassNumber05_OOP.csproj</code>
 	
-## Topics
+## C# Topics <a name ="topics"/>
 
 - Compiled and interpreted languages and Dynamic Link Libraries
 - Console application
@@ -186,3 +193,23 @@
 		- Assert class
 	- Test Automation
 		- Selenium Web Driver (Web)
+		
+## Git Commands <a name="gitCommands"/>
+
+- git init
+- git config --list
+- git config user.name "My User Name"
+- git config user.email myemail@mail.com
+- git status
+- git add \<file or folder>
+- git add .
+- git rm --cache \<file>
+- git log
+- git log --oneline
+- git commit -m "Your commit message"
+
+## vi Text Editor Commands <a name="viCommands"/>
+
+- <code>i</code> - insert the text
+- <code>esc</code> - to exit from the text 
+- <code>wq</code> - to write the file and exit from the vi

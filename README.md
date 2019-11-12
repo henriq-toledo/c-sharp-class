@@ -196,20 +196,27 @@
 		
 ## Git Commands <a name="gitCommands"/>
 
-- git init
-- git config --list
-- git config user.name "My User Name"
-- git config user.email myemail@mail.com
-- git status
-- git add \<file or folder>
-- git add .
-- git rm --cache \<file>
-- git log
-- git log --oneline
-- git commit -m "Your commit message"
+- <code>git init</code>: initialize the local git repository
+- <code>git config --list</code>: list the configuration
+- <code>git config user.name "My User Name"</code>: change the local user name
+- <code>git config user.email myemail@mail.com</code>: change the local e-mail
+- <code>git add \<file or folder></code>: stage a file
+- <code>git add .</code>: stage all the files
+- <code>git status</code>: list the staged and not staged files
+- <code>git rm --cache \<file></code>: remove the file from the stage
+- <code>git log</code>: show the commits
+- <code>git log --oneline</code>: show the commits in one line
+- <code>git commit -m "Your commit message"</code>: create a commit
+- <code>git branch -a</code>: list all branches
+- <code>git branch <branch name></code>: create branch
+- <code>git checkout <branch name></code>: switch branch
+- <code>git checkout -b <branch name></code>: create and switch branch
+- <code>git merge <branch name></code>: merge branch
+- <code>git remote add origin <repository url></code>: configure the repository
+- <code>git push -u origin <branch name></code>: send the changes to the remote repository
 
 ## vi Text Editor Commands <a name="viCommands"/>
 
-- <code>i</code> - insert the text
-- <code>esc</code> - to exit from the text 
-- <code>wq</code> - to write the file and exit from the vi
+- <code>i</code>: insert the text
+- <code>esc</code>: to exit from the text 
+- <code>wq</code>: to write the file and exit from the vi

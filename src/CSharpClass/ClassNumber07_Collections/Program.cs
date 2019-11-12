@@ -876,7 +876,7 @@ namespace ClassNumber07_Collections
 
             Console.WriteLine("The owner's name and the pet's name");
 
-            // Irá retornar os nomes das pessoas que tem um pet
+            // Will return the name of the person that have a pet
             foreach (var item in query)
             {
                 Console.WriteLine($"Owner's name {item.PersonName} - Pet's name: {item.PetName}");

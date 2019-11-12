@@ -208,12 +208,12 @@
 - <code>git log --oneline</code>: show the commits in one line
 - <code>git commit -m "Your commit message"</code>: create a commit
 - <code>git branch -a</code>: list all branches
-- <code>git branch <branch name></code>: create branch
-- <code>git checkout <branch name></code>: switch branch
-- <code>git checkout -b <branch name></code>: create and switch branch
-- <code>git merge <branch name></code>: merge branch
-- <code>git remote add origin <repository url></code>: configure the repository
-- <code>git push -u origin <branch name></code>: send the changes to the remote repository
+- <code>git branch \<branch name></code>: create branch
+- <code>git checkout \<branch name></code>: switch branch
+- <code>git checkout -b \<branch name></code>: create and switch branch
+- <code>git merge \<branch name></code>: merge branch
+- <code>git remote add origin \<repository url></code>: configure the repository
+- <code>git push -u origin \<branch name></code>: send the changes to the remote repository
 
 ## vi Text Editor Commands <a name="viCommands"/>
 

@@ -36,9 +36,6 @@ namespace ClassNumber02_Casting
             // float < double
             var floatValue = float.MaxValue;
             double doubleValue = floatValue;
-
-            // decimal < double
-            var decimalValue = doubleValue;
         }
 
         static void ExplicitCasting()
@@ -95,7 +92,7 @@ namespace ClassNumber02_Casting
 
         static void ConvertClass()
         {
-            var longValue = 1;
+            long longValue = 1;
             var intValue = (int)Convert.ChangeType(longValue, typeof(int));
         }
 

@@ -207,6 +207,7 @@
 - <code>git log</code>: show the commits
 - <code>git log --oneline</code>: show the commits in one line
 - <code>git commit -m "Your commit message"</code>: create a commit
+- <code>git commit -m "Your commit message" --amend</code>: update the last commit message
 - <code>git branch -a</code>: list all branches
 - <code>git branch \<branch name></code>: create branch
 - <code>git checkout \<branch name></code>: switch branch

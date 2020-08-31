@@ -111,7 +111,6 @@
 		- internal
 		- static
 		- partial
-- Ref and out parameters (next)
 - Interfaces
 	- IComparable and IComparer
 	- IEquatable
@@ -122,6 +121,17 @@
 		- using keyword
 		- Garbage Collector
 - Enums
+- Exceptions
+	- try
+	- catch
+	- finally
+- ADO
+- ORM
+	- EntityFramework
+		- Code First
+		- Migration
+		- Attributes
+- Ref and out parameters (next)
 - Collections
 	- List
 	- Dictionary
@@ -165,28 +175,16 @@
 	- File
 	- DirectoryInfo
 	- FileInfo
-- Exceptions
-	- try
-	- catch
-	- finally
 - Serialization and Deserialization
 	- XML
 	- JSON
 - Extension methods
-- Delegates and events	
-	- Actions 
-	- Functions
+- Actions and functions
 - Multithreading
 	- Task
 	- Async methods
 - Generics
 - Reflection
-- ORM
-	- EntityFramework
-		- Code First
-		- Migration
-		- Attributes
-- AppSettings.json	
 - Tests
 	- Arrange Act Assert
 	- Unit Test

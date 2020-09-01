@@ -120,7 +120,20 @@
 	- IDisposable
 		- using keyword
 		- Garbage Collector
+- Collections
+	- List
+	- Dictionary
+	- ArrayList
+	- HashSet
+	- HashTable
+	- Stack
+	- Queue
+	- SortedList
 - Enums
+- Serialization and Deserialization
+	- XML
+	- JSON
+- Generics
 - Exceptions
 	- try
 	- catch
@@ -132,15 +145,6 @@
 		- Migration
 		- Attributes
 - Ref and out parameters (next)
-- Collections
-	- List
-	- Dictionary
-	- ArrayList
-	- HashSet
-	- HashTable
-	- Stack
-	- Queue
-	- SortedList
 - Linq 
 	- join
 	- order by ascending and descending
@@ -175,22 +179,12 @@
 	- File
 	- DirectoryInfo
 	- FileInfo
-- Serialization and Deserialization
-	- XML
-	- JSON
 - Extension methods
 - Actions and functions
 - Multithreading
 	- Task
 	- Async methods
-- Generics
 - Reflection
-- Tests
-	- Arrange Act Assert
-	- Unit Test
-		- Assert class
-	- Test Automation
-		- Selenium Web Driver (Web)
 		
 ## Git Commands <a name="gitCommands"/>
 
